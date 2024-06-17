@@ -5,7 +5,7 @@
   "author": "Naotoshi Fujita",
   "license": "MIT",
   "main": "dist/js/react-splide.cjs.js",
-  "module": "dist/js/react-splide.esm.js",
+  "module": "dist/js/react-splide.esm.mjs",
   "types": "dist/types/index.d.ts",
   "keywords": [
     "splide",
@@ -58,8 +58,8 @@
     ".": {
       "types": "./dist/types/index.d.ts",
       "require": "./dist/js/react-splide.cjs.js",
-      "import": "./dist/js/react-splide.esm.js",
-      "default": "./dist/js/react-splide.esm.js"
+      "import": "./dist/js/react-splide.esm.mjs",
+      "default": "./dist/js/react-splide.esm.mjs"
     },
     "./css": "./dist/css/splide.min.css",
     "./css/core": "./dist/css/splide-core.min.css",
